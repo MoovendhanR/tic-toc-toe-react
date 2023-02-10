@@ -3,9 +3,8 @@
 See the section about [demo](https://tic-toc-toe-react-ten.vercel.app/) for more information.
 
 
-#ECOMMERCESITE-USING-REDUX
 
-I developed this small ecommerce-site within a week.
+I developed this small ticc-toc-toe game within a week.
 
 
 ## 🛠 Tech Stack <br/>
@@ -18,7 +17,7 @@ Frontend -> Vercel<br/>
 ## Some of the Screenshots
 
 ![Screenshot (563)](https://user-images.githubusercontent.com/87975437/218152970-4432ea2e-a66b-4818-973e-765227870b64.png)
-[Screenshot (564)](https://user-images.githubusercontent.com/87975437/218152991-e4fe79c5-b96f-4a2f-bd74-1ca1862fd705.png)
+![Screenshot (564)](https://user-images.githubusercontent.com/87975437/218152991-e4fe79c5-b96f-4a2f-bd74-1ca1862fd705.png)
 ![Screenshot (565)](https://user-images.githubusercontent.com/87975437/218153095-90f28b16-10b6-4195-ab4f-4f8eea2794b4.png)
 
 ## Conntributor!
