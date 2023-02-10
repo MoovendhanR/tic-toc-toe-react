@@ -5,6 +5,12 @@ function App() {
   return (
     <>
         <Game/> 
+        <br>
+        </br>
+        <br>
+        </br><br>
+        </br>
+        <p>developed by Moovendhan R</p>
     </>
   );
 }
