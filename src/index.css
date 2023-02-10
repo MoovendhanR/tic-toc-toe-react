@@ -19,14 +19,14 @@ body {
   background: linear-gradient(
       90deg,
       transparent 7.9rem,
-      #abced4 7.9rem,
-      #abced4 8.1rem,
+      #161616 7.9rem,
+      #181818 8.1rem,
       transparent 8.1rem
     ),
     linear-gradient(#eee 0.1rem, transparent 0.1rem), #fff;
   background-size: 100% 3rem;
   font: 2.5rem "Architects Daughter", cursive;
-  color: #2696aa;
+  color: #0e0f0f;
 }
 
 button {
@@ -39,9 +39,9 @@ button {
   cursor: pointer;
   margin-top: 4rem;
   padding: 0.7rem 1.7rem;
-  background-color: #2696aa;
+  background-color: #040404;
   font: 2.1rem "Architects Daughter", cursive;
-  border: 0.1rem solid #188ca179;
+  border: 0.1rem solid #0e0e0f79;
   border-radius: 0.1rem;
 }
 
@@ -52,7 +52,7 @@ button {
 
 .reset-btn:hover {
   transition: background-color 0.5s ease;
-  background-color: #007e94;
+  background-color: #202121;
 }
 
 .board {
@@ -68,9 +68,9 @@ button {
   width: 7rem;
   height: 7rem;
   font: 3.5rem "Architects Daughter", cursive;
-  color: #2696aa;
-  border-bottom: 0.3rem solid #48bed3;
-  border-right: 0.3rem solid #48bed3;
+  color: #020202;
+  border-bottom: 0.3rem solid #131414;
+  border-right: 0.3rem solid #1a1a1a;
 }
 
 .square:nth-child(13),
@@ -92,8 +92,8 @@ button {
 }
 
 ::selection {
-  color: #ebf8e1;
-  background-color: #2696aa;
+  color: #aeb0ad;
+  background-color: #1c1c1c;
 }
 
 @media screen and (max-width: 700px) {
