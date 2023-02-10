@@ -10,8 +10,7 @@ I developed this small ticc-toc-toe game within a week.
 ## 🛠 Tech Stack <br/>
 ReactJS<br/>
 
-DEPLOYMENT<br/>
-Frontend -> Vercel<br/>
+Deployment - Vercel<br/>
 
 
 ## Some of the Screenshots
@@ -22,7 +21,7 @@ Frontend -> Vercel<br/>
 
 ## Conntributor!
 
-This website is fully made by me 
+This application is fully made by me 
 (https://github.com/MoovendhanR)
 
 ## Run Locally
