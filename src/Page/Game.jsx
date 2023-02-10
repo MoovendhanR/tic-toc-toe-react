@@ -39,11 +39,11 @@ const Game = () => {
 
     return null;
   }
+  setTimeout(()=>{
     if(winner){
-      setTimeout(()=>{
         alert(`winner! ${winner}`)
-      },1000)
-    }
+      }
+    },1000)
   const handleClick = (i) => {
     const boardCopy = [...board];
     if (winner || boardCopy[i]) return;
