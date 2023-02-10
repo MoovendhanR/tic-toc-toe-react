@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Board from "./Board";
+import Board from "../Components/Board";
 
 const Game = () => {
   const [board, setBoard] = useState(Array(16).fill(null));
@@ -19,7 +19,7 @@ const Game = () => {
       [0, 5, 10, 15],
       [3, 6, 9, 12],
     ];
-
+  
     for (let i = 0; i < lines.length; i++) {
       const [a, b, c, d] = lines[i];
       if (
@@ -33,12 +33,17 @@ const Game = () => {
     }
 
     if (squares.includes(null) === false) {
-      return "Draw!";
+       return "Draw!";
+      // alert("Draw!")
     }
 
     return null;
   }
-
+    if(winner){
+      setTimeout(()=>{
+        alert(`winner! ${winner}`)
+      },1000)
+    }
   const handleClick = (i) => {
     const boardCopy = [...board];
     if (winner || boardCopy[i]) return;
